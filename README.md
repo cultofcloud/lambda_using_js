@@ -1,2 +1,2 @@
 # lambda_using_js
-Invoking Lambda Function Using Java Script
+Please find the Blog for SALT-Apache-Formula at https://www.cultof.cloud
