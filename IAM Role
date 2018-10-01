@@ -1,0 +1,22 @@
+# This will be the same for IAM Role and Cognito Pool Role
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "mobileanalytics:PutEvents",
+                "cognito-sync:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "lambda:InvokeFunction",
+            "Resource": "arn:aws:lambda:<AWS_Region>:<Account_NUM>:function:helloworld"
+        }
+    ]
+}
